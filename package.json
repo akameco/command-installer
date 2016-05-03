@@ -1,0 +1,36 @@
+{
+  "name": "command-installer",
+  "version": "0.0.0",
+  "description": "My bedazzling module",
+  "license": "MIT",
+  "repository": "akameco/command-installer",
+  "author": {
+    "name": "akameco",
+    "email": "akameco.t@gmail.com",
+    "url": "akameco.github.io"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "command",
+    "cmd",
+    "installer",
+    "register",
+    "osx",
+    "mac"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "pify": "^2.3.0",
+    "tempfile": "^1.1.1",
+    "xo": "^0.15.0"
+  }
+}
