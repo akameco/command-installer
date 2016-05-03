@@ -18,6 +18,7 @@ module.exports = (commandPath, commandName) => {
 		fs.readlink(destinationPath, (_, realPath) => {
 			if (realPath === commandPath) {
 				resolve();
+				return;
 			}
 
 			fs.unlink(destinationPath, err => {
