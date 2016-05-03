@@ -22,7 +22,7 @@ module.exports = (commandPath, commandName) => {
 			}
 
 			fs.unlink(destinationPath, err => {
-				if (err.code && err.code !== 'ENOENT') {
+				if (err && err.code && err.code !== 'ENOENT') {
 					reject(err);
 				}
 
