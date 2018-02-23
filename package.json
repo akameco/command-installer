@@ -28,9 +28,9 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "ava": "^0.14.0",
-    "pify": "^2.3.0",
-    "tempfile": "^1.1.1",
-    "xo": "^0.15.0"
+    "ava": "^0.25.0",
+    "pify": "^3.0.0",
+    "tempfile": "^2.0.0",
+    "xo": "^0.20.3"
   }
 }
