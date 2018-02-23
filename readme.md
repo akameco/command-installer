@@ -1,5 +1,7 @@
 # command-installer [![Build Status](https://travis-ci.org/akameco/command-installer.svg?branch=master)](https://travis-ci.org/akameco/command-installer)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/akameco/command-installer.svg)](https://greenkeeper.io/)
+
 > create original command for mac
 
 
